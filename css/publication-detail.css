@@ -1,0 +1,279 @@
+/* ==========================================================================
+   Dr. Kritika Sood — Publication Detail Stylesheet
+   ========================================================================== */
+
+body {
+  background: #f8f7f1;
+}
+
+.detail-main {
+  max-width: 1240px;
+  margin: auto;
+  padding: 42px 5.5% 70px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #dce5dc;
+  border-radius: 30px;
+  padding: 8px 18px;
+  color: #3b5c49;
+  font-size: 13.5px;
+  font-weight: 700;
+  margin: 0 0 28px;
+  box-shadow: 0 4px 14px rgba(18, 56, 46, 0.04);
+  transition: all 0.22s ease;
+}
+
+.back-link:hover {
+  background: var(--gold);
+  color: #122820;
+  border-color: var(--gold);
+  transform: translateX(-3px);
+  box-shadow: 0 8px 20px rgba(18, 56, 46, 0.08);
+}
+
+.detail-hero {
+  display: grid;
+  grid-template-columns: 1.12fr 0.88fr;
+  gap: 35px;
+  align-items: center;
+  background: linear-gradient(135deg, #09221b 0%, #103429 100%);
+  color: #f7f4ea;
+  border-radius: 16px;
+  padding: clamp(28px, 5vw, 60px);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 18px 45px rgba(11, 33, 28, 0.16);
+}
+
+.detail-kicker {
+  display: block;
+  color: var(--mint);
+  font-size: 11px;
+  letter-spacing: 0.17em;
+  font-weight: 800;
+}
+
+.detail-status {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 5px 12px;
+  border: 1px solid rgba(231, 189, 130, 0.55);
+  border-radius: 30px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  background: rgba(231, 189, 130, 0.1);
+}
+
+.detail-copy h1 {
+  font: 600 clamp(28px, 3.8vw, 46px)/1.2 var(--serif);
+  letter-spacing: -0.5px;
+  margin: 16px 0;
+  color: #ffffff;
+}
+
+.detail-authors {
+  font-size: 14.5px;
+  line-height: 1.8;
+  color: #c8d8ce;
+}
+
+.detail-journal {
+  font-size: 15px;
+  color: var(--gold);
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 18px;
+  border-radius: 6px;
+  background: var(--gold);
+  color: #162a22;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.22s ease;
+}
+
+.detail-link:hover {
+  background: #f3d7a8;
+  transform: translateY(-2px);
+}
+
+.detail-link.secondary {
+  background: transparent;
+  color: #e5eee6;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.detail-link.secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--mint);
+}
+
+.detail-art {
+  min-height: 320px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #1d5946, #0b211c 70%);
+  border: 1px solid rgba(158, 215, 184, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.detail-art svg {
+  width: 90%;
+  max-height: 310px;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 10px 30px rgba(117, 211, 165, 0.2));
+  animation: float 8s ease-in-out infinite;
+}
+
+.art-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.5;
+}
+
+.detail-art-label {
+  position: absolute;
+  z-index: 2;
+  bottom: 27px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--gold);
+  font: italic 17px var(--serif);
+  letter-spacing: 0.1em;
+}
+
+.detail-art small {
+  position: absolute;
+  bottom: 8px;
+  color: #b7cabe;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.detail-info {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 50px;
+  padding: 55px 2%;
+}
+
+.detail-info .section-index {
+  color: var(--gold-dark);
+}
+
+.detail-info h2 {
+  font: 600 30px var(--serif);
+  margin: 10px 0 22px;
+  color: #192a22;
+}
+
+.detail-info dl {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 14px 20px;
+  margin: 0;
+}
+
+.detail-info dt {
+  color: #718076;
+  font-size: 13.5px;
+}
+
+.detail-info dd {
+  margin: 0;
+  color: #21382b;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.detail-info aside {
+  background: #ffffff;
+  border: 1px solid #e1e7dc;
+  padding: 28px;
+  border-radius: 12px;
+  align-self: start;
+  box-shadow: 0 6px 18px rgba(18, 56, 46, 0.04);
+}
+
+.detail-info aside h3 {
+  font: 600 22px var(--serif);
+  margin: 10px 0 12px;
+  color: #1e3a2d;
+}
+
+.detail-info aside p {
+  font-size: 13.5px;
+  color: #647367;
+  line-height: 1.8;
+  margin: 0 0 18px;
+}
+
+.detail-footer {
+  border-top: 1px solid #dfe5dc;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: #6f7e73;
+  font-size: 13px;
+}
+
+.detail-footer a {
+  font-weight: 700;
+  color: #385a47;
+  transition: color 0.2s;
+}
+
+.detail-footer a:hover {
+  color: var(--gold-dark);
+}
+
+@media (max-width: 760px) {
+  .detail-main {
+    padding: 25px 5% 45px;
+  }
+  .detail-hero {
+    grid-template-columns: 1fr;
+  }
+  .detail-art {
+    min-height: 250px;
+  }
+  .detail-info {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 35px 1%;
+  }
+  .detail-info dl {
+    grid-template-columns: 130px 1fr;
+  }
+  .detail-footer {
+    flex-direction: column;
+  }
+}

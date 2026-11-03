@@ -1,0 +1,1158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b211c">
+  <meta name="description"
+    content="Dr. Kritika Sood — Materials Scientist working at the intersection of nanomaterials, electrochemistry and renewable energy.">
+  <title>Dr. Kritika Sood </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <aside class="font-access" aria-label="Text size controls">
+    <span>TEXT SIZE</span>
+    <button type="button" id="fontDown" aria-label="Decrease text size" title="Decrease text size">A−</button>
+    <button type="button" id="fontReset" aria-label="Reset text size" title="Reset text size">A</button>
+    <button type="button" id="fontUp" aria-label="Increase text size" title="Increase text size">A+</button>
+  </aside>
+
+  <!-- 1. Main Navigation & Header -->
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Dr. Kritika Sood home">
+      <span class="brand-mark">✳</span>
+      <span>Dr. Kritika <b>Sood</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#journey">Experience</a>
+      <a href="#recognition">Honors</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cv" href="assets/kritika-sood-cv.pdf" target="_blank" rel="noopener"><span>↓</span> Curriculum
+      Vitae</a>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="hero-copy reveal">
+
+          <p class="hello">Hello, I'm</p>
+          <h1>Dr. Kritika <em>Sood</em></h1>
+
+          <p class="hero-description">Exploring the intersection of <strong>materials chemistry, nanotechnology,
+              electrochemistry and sustainable energy</strong> — designing functional nanostructures, understanding
+            their electrochemical behaviour, and transforming underutilised resources into innovative materials for a
+            cleaner, more sustainable future.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-accent" href="#research">Explore my research <span>↗</span></a>
+            <a class="btn btn-outline" href="assets/kritika-sood-cv.pdf" target="_blank" rel="noopener">Download CV
+              <span>↓</span></a>
+          </div>
+
+          <!-- Academic Identifiers & Contact Strip -->
+          <div class="hero-contact-wrap">
+            <div class="hero-contact-row">
+              <span class="contact-pill"><span class="pill-icon">⌖</span> Mohali, Punjab, India</span>
+              <span class="pill-dot">·</span>
+              <a class="contact-pill-link" href="tel:+918091152563"><span class="pill-icon">＋</span> +91-8091152563</a>
+              <span class="pill-dot">·</span>
+              <a class="contact-pill-link" href="mailto:kskritikasood28@gmail.com"><span class="pill-icon">✉</span>
+                kskritikasood28@gmail.com</a>
+            </div>
+            <div class="hero-id-row">
+              <a class="id-badge scholar-badge" href="https://scholar.google.com/citations?user=nln5SJQAAAAJ&hl=en"
+                target="_blank" rel="noopener" title="Google Scholar Profile">
+                <span class="id-icon">🎓</span> Google Scholar
+              </a>
+              <a class="id-badge orcid-badge" href="https://orcid.org/0000-0002-8374-6267" target="_blank"
+                rel="noopener" title="ORCID Researcher iD">
+                <span class="orcid-symbol">iD</span> ORCID
+              </a>
+              <a class="id-badge rg-badge" href="https://www.researchgate.net/profile/Kritika-Sood-2" target="_blank"
+                rel="noopener" title="ResearchGate Profile">
+                <span>R<sup>G</sup></span> ResearchGate
+              </a>
+              <a class="id-badge linkedin-badge" href="https://www.linkedin.com/in/dr-kritika-sood-11627515b/"
+                target="_blank" rel="noopener" title="LinkedIn Profile">
+                <span class="linkedin-symbol">in</span> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal delay-2" aria-label="Profile photograph and chemical molecules illustration">
+          <div class="profile-photo-wrapper">
+            <div class="profile-photo-frame">
+              <img src="assets/kritika-profile.jpeg" alt="Portrait of Dr. Kritika Sood"
+                onerror="this.style.display='none'">
+              <div class="profile-photo-placeholder">
+                <span class="photo-placeholder-icon">＋</span>
+                <b>Dr. Kritika Sood</b>
+                <small>Materials Scientist & Nanotechnology Researcher</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chemistry Molecules Illustration -->
+          <div class="molecule-container" aria-label="Decorative chemical molecules illustration">
+            <svg class="molecule-svg" viewBox="0 0 540 440" role="img"
+              aria-label="3D chemical molecules showing chemical bonds and molecular structure">
+              <defs>
+                <filter id="molGlow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="5" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <linearGradient id="bondSingle" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#e8c48f" stop-opacity="0.9" />
+                  <stop offset="100%" stop-color="#67cca8" stop-opacity="0.9" />
+                </linearGradient>
+                <linearGradient id="bondDouble" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#f5dcab" stop-opacity="0.95" />
+                  <stop offset="100%" stop-color="#7dd4b5" stop-opacity="0.95" />
+                </linearGradient>
+                <linearGradient id="orbitalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#e8c48f" stop-opacity="0.1" />
+                  <stop offset="50%" stop-color="#67cca8" stop-opacity="0.5" />
+                  <stop offset="100%" stop-color="#e8c48f" stop-opacity="0.1" />
+                </linearGradient>
+
+                <!-- 3D Shaded Atomic Spheres -->
+                <radialGradient id="atomC" cx="32%" cy="30%" r="70%">
+                  <stop offset="0%" stop-color="#7ebaa7" />
+                  <stop offset="45%" stop-color="#316353" />
+                  <stop offset="85%" stop-color="#184236" />
+                  <stop offset="100%" stop-color="#081e18" />
+                </radialGradient>
+                <radialGradient id="atomO" cx="32%" cy="30%" r="70%">
+                  <stop offset="0%" stop-color="#fff0d0" />
+                  <stop offset="35%" stop-color="#f0bc75" />
+                  <stop offset="80%" stop-color="#a66e30" />
+                  <stop offset="100%" stop-color="#5a3814" />
+                </radialGradient>
+                <radialGradient id="atomN" cx="32%" cy="30%" r="70%">
+                  <stop offset="0%" stop-color="#dffff3" />
+                  <stop offset="40%" stop-color="#5ecea8" />
+                  <stop offset="85%" stop-color="#1f7d60" />
+                  <stop offset="100%" stop-color="#0c3d2e" />
+                </radialGradient>
+                <radialGradient id="atomH" cx="32%" cy="30%" r="70%">
+                  <stop offset="0%" stop-color="#ffffff" />
+                  <stop offset="55%" stop-color="#e2f5ee" />
+                  <stop offset="100%" stop-color="#91baa9" />
+                </radialGradient>
+                <radialGradient id="atomM" cx="35%" cy="32%" r="68%">
+                  <stop offset="0%" stop-color="#ffffff" />
+                  <stop offset="25%" stop-color="#ffe3a8" />
+                  <stop offset="65%" stop-color="#46c098" />
+                  <stop offset="100%" stop-color="#125741" />
+                </radialGradient>
+              </defs>
+
+              <!-- Ambient Molecular Orbital Rings -->
+              <ellipse cx="270" cy="225" rx="195" ry="92" transform="rotate(-16 270 225)" fill="none"
+                stroke="url(#orbitalGrad)" stroke-width="1.2" stroke-dasharray="5 7" opacity="0.35" />
+              <ellipse cx="270" cy="225" rx="165" ry="78" transform="rotate(24 270 225)" fill="none"
+                stroke="url(#orbitalGrad)" stroke-width="1" opacity="0.25" />
+
+              <!-- Covalent & Coordination Bonds -->
+              <g stroke-linecap="round">
+                <!-- Coordination dashed bonds to central node -->
+                <g stroke="#a8f5dc" stroke-width="1.5" stroke-dasharray="3 4" opacity="0.55">
+                  <line x1="270" y1="220" x2="270" y2="165" />
+                  <line x1="270" y1="220" x2="318" y2="192" />
+                  <line x1="270" y1="220" x2="318" y2="248" />
+                  <line x1="270" y1="220" x2="270" y2="275" />
+                  <line x1="270" y1="220" x2="222" y2="248" />
+                  <line x1="270" y1="220" x2="222" y2="192" />
+                </g>
+
+                <!-- Central Ring Single & Double Bonds -->
+                <line x1="270" y1="165" x2="318" y2="192" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <!-- V2-V3 Double bond -->
+                <line x1="315" y1="194" x2="315" y2="246" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="322" y1="190" x2="322" y2="250" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="318" y1="248" x2="270" y2="275" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <!-- V4-V5 Double bond -->
+                <line x1="271" y1="271" x2="225" y2="245" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="268" y1="278" x2="219" y2="252" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="222" y1="248" x2="222" y2="192" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <!-- V6-V1 Double bond -->
+                <line x1="225" y1="195" x2="269" y2="169" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="219" y1="189" x2="271" y2="161" stroke="url(#bondDouble)" stroke-width="2.5" />
+
+                <!-- Upper Carbonyl / Hydroxyl Branch -->
+                <line x1="270" y1="165" x2="270" y2="110" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <!-- C=O Double bond to Oxygen -->
+                <line x1="268" y1="107" x2="224" y2="75" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="272" y1="113" x2="220" y2="82" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="270" y1="110" x2="318" y2="80" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="318" y1="80" x2="356" y2="66" stroke="url(#bondSingle)" stroke-width="3" />
+
+                <!-- Right Nitrogen Branch -->
+                <line x1="318" y1="192" x2="380" y2="172" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="380" y1="172" x2="418" y2="142" stroke="url(#bondSingle)" stroke-width="3" />
+                <line x1="380" y1="172" x2="425" y2="196" stroke="url(#bondSingle)" stroke-width="3" />
+
+                <!-- Lower-Right Alkyl / Chain -->
+                <line x1="318" y1="248" x2="375" y2="278" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="375" y1="278" x2="424" y2="255" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="424" y1="255" x2="460" y2="270" stroke="url(#bondSingle)" stroke-width="3" />
+                <line x1="424" y1="255" x2="424" y2="215" stroke="url(#bondSingle)" stroke-width="3" />
+
+                <!-- Lower Node Coordination -->
+                <line x1="267" y1="275" x2="267" y2="345" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="273" y1="275" x2="273" y2="345" stroke="url(#bondDouble)" stroke-width="2.5" />
+                <line x1="270" y1="345" x2="212" y2="375" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="270" y1="345" x2="324" y2="375" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="324" y1="375" x2="358" y2="360" stroke="url(#bondSingle)" stroke-width="3" />
+
+                <!-- Left Ethoxy / Hydroxyl Branch -->
+                <line x1="222" y1="248" x2="165" y2="275" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="165" y1="275" x2="118" y2="252" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="118" y1="252" x2="88" y2="276" stroke="url(#bondSingle)" stroke-width="3" />
+                <line x1="118" y1="252" x2="118" y2="212" stroke="url(#bondSingle)" stroke-width="3" />
+                <line x1="222" y1="192" x2="165" y2="168" stroke="url(#bondSingle)" stroke-width="4.5" />
+                <line x1="165" y1="168" x2="130" y2="144" stroke="url(#bondSingle)" stroke-width="3" />
+
+                <!-- Satellite 1: Water (H2O) -->
+                <line x1="95" y1="82" x2="68" y2="104" stroke="url(#bondSingle)" stroke-width="3.5" />
+                <line x1="95" y1="82" x2="122" y2="104" stroke="url(#bondSingle)" stroke-width="3.5" />
+
+                <!-- Satellite 2: Linear Molecule (CO2) -->
+                <line x1="418" y1="344" x2="458" y2="358" stroke="url(#bondDouble)" stroke-width="2.2" />
+                <line x1="420" y1="349" x2="460" y2="363" stroke="url(#bondDouble)" stroke-width="2.2" />
+                <line x1="458" y1="358" x2="500" y2="372" stroke="url(#bondDouble)" stroke-width="2.2" />
+                <line x1="460" y1="363" x2="502" y2="377" stroke="url(#bondDouble)" stroke-width="2.2" />
+
+                <!-- Satellite 3: Diatomic Molecule (H2) -->
+                <line x1="445" y1="66" x2="476" y2="84" stroke="url(#bondSingle)" stroke-width="3" />
+              </g>
+
+              <!-- Atoms (3D Shaded Spheres with Specular Light Glints) -->
+              <!-- Hydrogen Atoms (Small Frosted Spheres, r=10) -->
+              <g>
+                <circle cx="356" cy="66" r="10" fill="url(#atomH)" />
+                <circle cx="354" cy="63" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="418" cy="142" r="10" fill="url(#atomH)" />
+                <circle cx="416" cy="139" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="425" cy="196" r="10" fill="url(#atomH)" />
+                <circle cx="423" cy="193" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="460" cy="270" r="10" fill="url(#atomH)" />
+                <circle cx="458" cy="267" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="424" cy="215" r="10" fill="url(#atomH)" />
+                <circle cx="422" cy="212" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="358" cy="360" r="10" fill="url(#atomH)" />
+                <circle cx="356" cy="357" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="130" cy="144" r="10" fill="url(#atomH)" />
+                <circle cx="128" cy="141" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="88" cy="276" r="10" fill="url(#atomH)" />
+                <circle cx="86" cy="273" r="3" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="118" cy="212" r="10" fill="url(#atomH)" />
+                <circle cx="116" cy="209" r="3" fill="#ffffff" opacity="0.6" />
+
+                <!-- Satellite H2O Hydrogens -->
+                <circle cx="68" cy="104" r="9.5" fill="url(#atomH)" />
+                <circle cx="122" cy="104" r="9.5" fill="url(#atomH)" />
+
+                <!-- Satellite H2 Hydrogens -->
+                <circle cx="445" cy="66" r="10" fill="url(#atomH)" />
+                <circle cx="476" cy="84" r="10" fill="url(#atomH)" />
+              </g>
+
+              <!-- Carbon Atoms (Graphite-Emerald Spheres, r=15) -->
+              <g>
+                <circle cx="270" cy="165" r="15" fill="url(#atomC)" />
+                <circle cx="266" cy="160" r="4" fill="#ffffff" opacity="0.45" />
+
+                <circle cx="318" cy="192" r="15" fill="url(#atomC)" />
+                <circle cx="314" cy="187" r="4" fill="#ffffff" opacity="0.45" />
+
+                <circle cx="318" cy="248" r="15" fill="url(#atomC)" />
+                <circle cx="314" cy="243" r="4" fill="#ffffff" opacity="0.45" />
+
+                <circle cx="270" cy="275" r="15" fill="url(#atomC)" />
+                <circle cx="266" cy="270" r="4" fill="#ffffff" opacity="0.45" />
+
+                <circle cx="222" cy="248" r="15" fill="url(#atomC)" />
+                <circle cx="218" cy="243" r="4" fill="#ffffff" opacity="0.45" />
+
+                <circle cx="222" cy="192" r="15" fill="url(#atomC)" />
+                <circle cx="218" cy="187" r="4" fill="#ffffff" opacity="0.45" />
+
+                <!-- Branch Carbons -->
+                <circle cx="270" cy="110" r="14.5" fill="url(#atomC)" />
+                <circle cx="375" cy="278" r="14" fill="url(#atomC)" />
+                <circle cx="424" cy="255" r="14" fill="url(#atomC)" />
+                <circle cx="118" cy="252" r="14" fill="url(#atomC)" />
+
+                <!-- Satellite CO2 Carbon -->
+                <circle cx="460" cy="360" r="14" fill="url(#atomC)" />
+              </g>
+
+              <!-- Nitrogen Atom (Mint-Cyan Sphere, r=15) -->
+              <g>
+                <circle cx="380" cy="172" r="15" fill="url(#atomN)" filter="url(#molGlow)" />
+                <circle cx="376" cy="167" r="4.5" fill="#ffffff" opacity="0.55" />
+              </g>
+
+              <!-- Oxygen Atoms (Warm Radiant Gold Spheres, r=15) -->
+              <g>
+                <circle cx="222" cy="78" r="15" fill="url(#atomO)" filter="url(#molGlow)" />
+                <circle cx="218" cy="74" r="4.5" fill="#ffffff" opacity="0.6" />
+
+                <circle cx="318" cy="80" r="14.5" fill="url(#atomO)" />
+                <circle cx="212" cy="375" r="14.5" fill="url(#atomO)" />
+                <circle cx="324" cy="375" r="14.5" fill="url(#atomO)" />
+                <circle cx="165" cy="168" r="14" fill="url(#atomO)" />
+                <circle cx="165" cy="275" r="14" fill="url(#atomO)" />
+
+                <!-- Satellite H2O Oxygen -->
+                <circle cx="95" cy="82" r="15" fill="url(#atomO)" />
+
+                <!-- Satellite CO2 Oxygens -->
+                <circle cx="418" cy="346" r="14" fill="url(#atomO)" />
+                <circle cx="502" cy="374" r="14" fill="url(#atomO)" />
+              </g>
+
+              <!-- Coordinated Metallic / Catalytic Centers (Glowing Mint-Gold Spheres) -->
+              <g>
+                <!-- Central Ring Coordination Node -->
+                <circle cx="270" cy="220" r="19" fill="url(#atomM)" filter="url(#molGlow)" />
+                <circle cx="265" cy="214" r="5" fill="#ffffff" opacity="0.75" />
+
+                <!-- Lower Catalytic Node -->
+                <circle cx="270" cy="345" r="23" fill="url(#atomM)" filter="url(#molGlow)" />
+                <circle cx="264" cy="338" r="6" fill="#ffffff" opacity="0.8" />
+              </g>
+            </svg>
+
+            <div class="art-ring"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="focus-intro"><span class="focus-icon">✳</span><span>RESEARCH<br>DOMAINS</span></div>
+        <a href="#research"><span class="focus-symbol">ϟ</span><span>Electrochemistry</span></a>
+        <a href="#research"><span class="focus-symbol">⌘</span><span>Nanomaterials<br>design</span></a>
+        <a href="#research"><span class="focus-symbol">♻</span><span>Waste<br>upcycling</span></a>
+        <a href="#research"><span class="focus-symbol">♧</span><span>Renewable<br>energy</span></a>
+        <a href="#research"><span class="focus-symbol">◈</span><span>Heterogeneous<br>catalysis</span></a>
+      </div>
+    </section>
+
+    <!-- 3.A. Key Metrics Strip ("Research at a glance") -->
+    <section class="metrics-wrap" aria-label="Research at a glance">
+      <div class="metrics">
+        <div class="metric" tabindex="0">
+          <span class="metric-icon">▤</span>
+          <div class="metric-info">
+            <strong class="count-up" data-target="20" data-suffix="+">20+</strong>
+            <small>Research publications</small>
+          </div>
+        </div>
+        <div class="metric" tabindex="0">
+          <span class="metric-icon">❝</span>
+          <div class="metric-info">
+            <strong class="count-up" data-target="4" data-suffix="">4</strong>
+            <small>Book chapters</small>
+          </div>
+        </div>
+        <div class="metric" tabindex="0">
+          <span class="metric-icon">▱</span>
+          <div class="metric-info">
+            <strong class="count-up" data-target="1" data-suffix="">1</strong>
+            <small>Patent application</small>
+          </div>
+        </div>
+        <div class="metric" tabindex="0">
+          <span class="metric-icon">♜</span>
+          <div class="metric-info">
+            <strong class="count-up" data-target="5" data-suffix="+">5+</strong>
+            <small>Awards & fellowships</small>
+          </div>
+        </div>
+        <div class="metric" tabindex="0">
+          <span class="metric-icon">▧</span>
+          <div class="metric-info">
+            <strong class="count-up" data-target="6" data-suffix="+">6+</strong>
+            <small>Conference contributions</small>
+          </div>
+        </div>
+        <div class="metric" tabindex="0">
+          <span class="metric-icon">⚗</span>
+          <div class="metric-info">
+            <strong class="count-up" data-target="7" data-suffix="+">7+</strong>
+            <small>Years of research</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.B. About Section ("Science with purpose") -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <span class="section-index">ABOUT</span>
+        <h2>Science with <em>purpose.</em></h2>
+        <p>Curiosity-led research for a cleaner, more sustainable energy future.</p>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <!-- Research Mission Callout Quote -->
+          <blockquote class="mission-callout">
+            <span class="mission-quote-glyph">“</span>
+            <p>Connecting the atomic-scale design of nanostructured catalysts with scalable, sustainable solutions for
+              clean energy conversion and environmental remediation.</p>
+            <cite>— Research Mission</cite>
+          </blockquote>
+
+          <p class="lead">I am a materials scientist with a PhD in Materials Science from <strong>Panjab University,
+              Chandigarh</strong>, carried out in collaboration with the <strong>Institute of Nano Science and
+              Technology (INST), Mohali</strong>.</p>
+          <p>My research focuses on the rational design of complex metal oxide nanostructures — particularly perovskites
+            — for electrochemical energy applications. I work across ethanol and urea oxidation, chlorine and oxygen
+            evolution, water electrolysis, and the upcycling of industrial waste into functional materials.</p>
+          <p>I am motivated by connecting fundamental materials chemistry with practical innovations that address energy
+            conversion challenges and environmental protection.</p>
+          <a class="inline-link" href="#journey">Explore my academic journey <span>↗</span></a>
+        </div>
+
+        <div class="about-visual reveal delay-1">
+          <div class="visual-main">
+            <img src="assets/TOC_12.jpg"
+              alt="Table of Contents graphic from Dr. Kritika Sood's research — perovskite nanostructure for electrocatalytic energy conversion"
+              class="toc-image">
+
+          </div>
+          <div class="visual-caption"><span>FROM ATOMIC DESIGN</span><b>to clean energy impact</b></div>
+        </div>
+      </div>
+
+      <!-- Badge-Style Education Strip -->
+      <div class="education-badge-strip reveal">
+        <div class="edu-badge-card">
+          <div class="edu-badge-icon">⌂</div>
+          <div class="edu-badge-body">
+            <span class="edu-badge-pill">DOCTORAL RESEARCH</span>
+            <h3>Panjab University · INST Mohali</h3>
+            <p>Ph.D. in Materials Science</p>
+            <span class="edu-badge-meta">2019 — 2026</span>
+          </div>
+        </div>
+
+        <div class="edu-badge-card">
+          <div class="edu-badge-icon">⌘</div>
+          <div class="edu-badge-body">
+            <span class="edu-badge-pill">INTEGRATED MASTER'S</span>
+            <h3>Shoolini University, Solan</h3>
+            <p>BS–MS Integrated Chemistry</p>
+            <span class="edu-badge-meta">2013 — 2018</span>
+          </div>
+        </div>
+
+        <div class="edu-badge-card">
+          <div class="edu-badge-icon">◎</div>
+          <div class="edu-badge-body">
+            <span class="edu-badge-pill">INTERNATIONAL FELLOWSHIPS</span>
+            <h3>Ruhr-Univ Bochum · Univ of Suwon</h3>
+            <p>Visiting Scholar (Germany) & Exchange (S. Korea)</p>
+            <span class="edu-badge-meta">Germany · South Korea</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Themes Section -->
+    <section class="research-section" id="research">
+      <div class="section section-inner">
+        <div class="section-heading reveal">
+          <span class="section-index">RESEARCH</span>
+          <h2>Where materials meet <em>possibility.</em></h2>
+          <p>Research themes connecting nanostructure design to global energy and environmental challenges.</p>
+        </div>
+        <div class="research-grid">
+          <article class="research-card reveal" tabindex="0">
+            <div class="research-card-top"><span>01</span><span class="research-glyph">ϟ</span></div>
+            <h3>Electrochemical energy</h3>
+            <p>Electrocatalytic oxidation and evolution reactions, including ethanol oxidation, urea oxidation, chlorine
+              evolution and water electrolysis.</p>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="research-card reveal delay-1" tabindex="0">
+            <div class="research-card-top"><span>02</span><span class="research-glyph">⌘</span></div>
+            <h3>Nanomaterials & perovskites</h3>
+            <p>Design, synthesis and stabilisation of complex metal oxide nanostructures, with a focus on
+              composition–structure–property relationships.</p>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="research-card reveal delay-2" tabindex="0">
+            <div class="research-card-top"><span>03</span><span class="research-glyph">♻</span></div>
+            <h3>Waste-to-value materials</h3>
+            <p>Recovering useful elements from industrial residues and spent materials to create functional
+              nanostructures for catalytic applications.</p>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="research-card reveal" tabindex="0">
+            <div class="research-card-top"><span>04</span><span class="research-glyph">♧</span></div>
+            <h3>Renewable energy systems</h3>
+            <p>Developing catalyst materials that can contribute to more efficient energy conversion and cleaner
+              hydrogen-related technologies.</p>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="research-card reveal delay-1" tabindex="0">
+            <div class="research-card-top"><span>05</span><span class="research-glyph">◉</span></div>
+            <h3>Heterogeneous catalysis</h3>
+            <p>Understanding active sites, reaction pathways and structure-dependent catalytic behaviour in complex
+              oxide materials.</p>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="research-card research-card-feature reveal delay-2">
+            <div class="feature-orbit"></div>
+            <span class="feature-label">PHD THESIS · PANJAB UNIVERSITY & INST</span>
+            <h3>Structurally engineered perovskites</h3>
+            <p>Structurally Engineered Perovskites Based Complex Metal Oxide Nanostructures for Energy Related
+              Applications.</p>
+            <a href="#publications" class="feature-link">Explore related work <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.D. Consolidated Publications Section & Scholarly Hub -->
+    <section class="publication-section" id="publications">
+      <div class="section section-inner">
+        <div class="section-heading publication-heading reveal">
+          <div>
+            <span class="section-index">SCHOLARLY HUB</span>
+            <h2>Research in the <em>literature.</em></h2>
+            <p>Consolidated scholarly record: peer-reviewed journal papers, book chapters, patent and manuscripts with
+              direct DOI and citation export.</p>
+          </div>
+          <a class="scholar-profile-btn" href="https://scholar.google.com/citations?user=nln5SJQAAAAJ&hl=en"
+            target="_blank" rel="noopener" aria-label="View Google Scholar profile">
+            <span class="scholar-profile-icon">🎓</span>
+            <span class="scholar-profile-text">
+              <span class="scholar-profile-label">Google Scholar</span>
+              <span class="scholar-profile-sub">Full citation record ↗</span>
+            </span>
+          </a>
+        </div>
+
+        <!-- Consolidated Filter Tabs -->
+        <div class="publication-tools">
+          <div class="filter-tabs" role="group" aria-label="Filter scholarly outputs">
+            <button class="filter-btn active" data-filter="all">All Outputs <span>25</span></button>
+            <button class="filter-btn" data-filter="journal">Journal Papers <span>20</span></button>
+            <button class="filter-btn" data-filter="first-author">★ First Author <span>9</span></button>
+            <button class="filter-btn" data-filter="chapter">Book Chapters <span>4</span></button>
+            <button class="filter-btn" data-filter="patent">Patent <span>1</span></button>
+            <button class="filter-btn" data-filter="review">Under Review <span>5</span></button>
+          </div>
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="publicationSearch" type="search" placeholder="Search title, author, journal or year…"
+              aria-label="Search scholarly outputs">
+          </label>
+        </div>
+
+        <!-- Dynamic Publications Grid -->
+        <div class="publication-list" id="publicationList" aria-live="polite"></div>
+
+        <div class="publication-footer">
+          <span id="publicationCount">Showing 25 scholarly outputs</span>
+          <button id="showMore" class="show-more">Show all outputs <span>↓</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patent Showcase Section (Intellectual Property Highlight) -->
+    <section class="patent-showcase" id="patent">
+      <div class="section patent-showcase-inner">
+        <div class="patent-showcase-copy reveal">
+          <span class="patent-eyebrow"><span class="patent-medal">✦</span> INTELLECTUAL PROPERTY · INDIA</span>
+          <span class="section-index">PATENT APPLICATION</span>
+          <h2>Turning industrial waste into <em>functional materials.</em></h2>
+          <p class="patent-invention-title">A process for producing La₂FeMnO₆ (LFMO) from iron ore slime and
+            applications thereof.</p>
+          <p class="patent-description">A research translation pathway that transforms iron ore slime, an industrial
+            by-product, into a functional complex metal oxide for energy-related applications.</p>
+          <div class="patent-inventors"><small>INVENTORS</small>
+            <p>Santanu Sarkar, Supriya Sarkar, Menaka Jha, Sujit Guchhait, Kritika Sood, Ankush and Krishna Yadav.</p>
+          </div>
+          <div class="patent-facts">
+            <div><small>APPLICATION NUMBER</small><strong>202131014754</strong></div>
+            <div><small>FILING DATE</small><strong>31 March 2021</strong></div>
+            <div><small>CORE INNOVATION</small><strong>Waste-to-functional oxide (LFMO)</strong></div>
+          </div>
+        </div>
+        <div class="patent-visual reveal delay-1" role="img"
+          aria-label="Illustration of an Indian patent application document with an official-style seal">
+          <div class="patent-document">
+            <div class="patent-doc-emblem">✥</div><small>INDIA · INTELLECTUAL PROPERTY</small>
+            <div class="patent-doc-rule"></div>
+            <strong>PATENT<br>APPLICATION</strong>
+            <span class="patent-doc-number">202131014754</span>
+            <div class="patent-doc-lines"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="patent-seal"><b>✦</b><span>FILED<br>2021</span></div>
+            <div class="patent-doc-footer">RESEARCH · MATERIALS SCIENCE</div>
+          </div>
+          <span class="patent-visual-caption">FROM WASTE TO MATERIALS INNOVATION</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.C. Experience / Academic Journey ("The Research Trail") -->
+    <section class="section journey-section" id="journey">
+      <div class="section-heading reveal">
+        <span class="section-index">EXPERIENCE</span>
+        <h2>A journey of <em>discovery.</em></h2>
+        <p>Research appointments, academic milestones and scientific trajectory.</p>
+      </div>
+
+      <div class="journey-landscape reveal" aria-label="Academic and research career timeline">
+        <div class="journey-landscape-heading">
+          <span class="journey-kicker">THE RESEARCH TRAIL</span>
+          <p>From early laboratory immersion at national laboratories to doctoral milestones in sustainable energy
+            materials.</p>
+        </div>
+
+        <div class="journey-track">
+          <svg class="journey-river" viewBox="0 0 1200 250" preserveAspectRatio="none" aria-hidden="true">
+            <path
+              d="M-20 188 C110 188 105 95 235 120 S390 225 505 154 S660 38 760 105 S930 225 1030 130 S1140 72 1220 82"
+              fill="none" stroke="#d8e5d9" stroke-width="54" stroke-linecap="round" />
+            <path
+              d="M-20 188 C110 188 105 95 235 120 S390 225 505 154 S660 38 760 105 S930 225 1030 130 S1140 72 1220 82"
+              fill="none" stroke="#8fb49c" stroke-width="3" stroke-dasharray="3 12" stroke-linecap="round" />
+          </svg>
+
+          <!-- Milestone Stops with Interactive Focus & Present 2026 status -->
+          <article class="journey-stop stop-2017" tabindex="0" role="button" aria-label="2017 Summer Research Fellow">
+            <span class="journey-year">2017</span>
+            <span class="journey-pin">✦</span>
+            <div class="journey-card">
+              <small>SUMMER RESEARCH FELLOWSHIP</small>
+              <h3>INSA–NASI Fellow</h3>
+              <p>CSIR–National Physical Laboratory, New Delhi</p>
+              <span class="journey-field">First research immersion</span>
+            </div>
+          </article>
+
+          <article class="journey-stop stop-2018" tabindex="0" role="button"
+            aria-label="2018 Project Assistant at INST Mohali">
+            <span class="journey-year">2018–19</span>
+            <span class="journey-pin">⚗</span>
+            <div class="journey-card">
+              <small>RESEARCH EXPERIENCE</small>
+              <h3>Project Assistant</h3>
+              <p>Institute of Nano Science and Technology, Mohali</p>
+              <span class="journey-field">Materials synthesis begins</span>
+            </div>
+          </article>
+
+          <article class="journey-stop stop-2019" tabindex="0" role="button" aria-label="2019 Junior Research Fellow">
+            <span class="journey-year">2019–21</span>
+            <span class="journey-pin">◈</span>
+            <div class="journey-card">
+              <small>DOCTORAL RESEARCH</small>
+              <h3>Junior Research Fellow</h3>
+              <p>INST Mohali · Panjab University</p>
+              <span class="journey-field">Complex metal oxides</span>
+            </div>
+          </article>
+
+          <article class="journey-stop stop-2021" tabindex="0" role="button" aria-label="2021 Senior Research Fellow">
+            <span class="journey-year">2021–25</span>
+            <span class="journey-pin">✧</span>
+            <div class="journey-card">
+              <small>ADVANCED RESEARCH</small>
+              <h3>Senior Research Fellow</h3>
+              <p>INST Mohali · Panjab University</p>
+              <span class="journey-field">Electrocatalysis & energy</span>
+            </div>
+          </article>
+
+          <article class="journey-stop stop-2026 active" tabindex="0" role="button"
+            aria-label="2026 PhD Milestone Present">
+            <span class="journey-year">2019–26</span>
+            <span class="journey-pin">◆</span>
+            <div class="journey-card journey-card-final">
+              <div class="present-badge"><span class="pulse-dot"></span> Present · Thesis Submitted</div>
+              <small>DOCTORAL MILESTONE</small>
+              <h3>PhD · Materials Science</h3>
+              <p>Panjab University, Chandigarh & INST Mohali</p>
+              <span class="journey-field">Perovskites for energy applications</span>
+            </div>
+          </article>
+        </div>
+        <div class="journey-note"><span>✳</span> Interactive research trail — hover or select any year to inspect the
+          appointment, institution and project focus.</div>
+      </div>
+    </section>
+
+    <!-- 3.E. Recognition & Awards ("Milestones & recognition") -->
+    <section class="section recognition-section" id="recognition">
+      <div class="section-heading reveal">
+        <span class="section-index">RECOGNITION</span>
+        <h2>Milestones & <em>recognition.</em></h2>
+        <p>Fellowships, research distinctions, and international academic honors.</p>
+      </div>
+
+      <!-- Harmonized 5 Award Cards with Country Flags & Gold Accents -->
+      <div class="recognition-grid">
+        <article class="recognition-card reveal">
+          <div class="card-crest-bar">
+            <span class="award-flag">🇩🇪</span>
+            <span class="award-country-badge">GERMANY</span>
+          </div>
+          <span class="award-symbol">✧</span>
+          <div class="recognition-card-body">
+            <small>VISITING SCHOLAR</small>
+            <h3>Ruhr-Universität Bochum</h3>
+            <p>Invited as a visiting scholar at Ruhr University Bochum, conducting international research on
+              electrochemical interfaces.</p>
+          </div>
+        </article>
+
+        <article class="recognition-card reveal delay-1">
+          <div class="card-crest-bar">
+            <span class="award-flag">🇮🇳</span>
+            <span class="award-country-badge">INDIA</span>
+          </div>
+          <span class="award-symbol">♜</span>
+          <div class="recognition-card-body">
+            <small>BEST POSTER AWARD</small>
+            <h3>Nanotechnology for Better Living</h3>
+            <p>Recognised for best scientific presentation at the prestigious international conference hosted at NIT
+              Srinagar.</p>
+          </div>
+        </article>
+
+        <article class="recognition-card reveal">
+          <div class="card-crest-bar">
+            <span class="award-flag">🇮🇳</span>
+            <span class="award-country-badge">INDIA</span>
+          </div>
+          <span class="award-symbol">✦</span>
+          <div class="recognition-card-body">
+            <small>NATIONAL FELLOWSHIP</small>
+            <h3>INSPIRE Fellowship</h3>
+            <p>Competitive doctoral fellowship awarded by the Department of Science and Technology (DST), Government of
+              India.</p>
+          </div>
+        </article>
+
+        <article class="recognition-card reveal delay-1">
+          <div class="card-crest-bar">
+            <span class="award-flag">🇮🇳</span>
+            <span class="award-country-badge">INDIA</span>
+          </div>
+          <span class="award-symbol">⌘</span>
+          <div class="recognition-card-body">
+            <small>RESEARCH FELLOWSHIP</small>
+            <h3>INSA–NASI Summer Fellow</h3>
+            <p>National fellowship hosted at CSIR–National Physical Laboratory, New Delhi, focusing on advanced
+              materials.</p>
+          </div>
+        </article>
+
+        <article class="recognition-card reveal">
+          <div class="card-crest-bar">
+            <span class="award-flag">🇰🇷</span>
+            <span class="award-country-badge">SOUTH KOREA</span>
+          </div>
+          <span class="award-symbol">◎</span>
+          <div class="recognition-card-body">
+            <small>INTERNATIONAL EXCHANGE</small>
+            <h3>University of Suwon</h3>
+            <p>Selected as an international exchange fellow at the University of Suwon, experiencing Korean research
+              innovation.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Expandable Interactive Timeline for Conferences -->
+      <div class="conference-block">
+        <div class="conference-title">
+          <span class="section-index">SCIENTIFIC COMMUNITY</span>
+          <h3>Conferences & <em>invited talks.</em></h3>
+          <p>Scientific presentations and engagement with the materials science community across premier national &
+            international platforms.</p>
+          <div class="conference-filter-buttons" role="group" aria-label="Filter conference contributions by year">
+            <button type="button" class="conf-btn active" data-year="all">All Years (6)</button>
+            <button type="button" class="conf-btn" data-year="2024">2024 (1)</button>
+            <button type="button" class="conf-btn" data-year="2023">2023 (2)</button>
+            <button type="button" class="conf-btn" data-year="2022">2022 (1)</button>
+            <button type="button" class="conf-btn" data-year="2021">2021 (2)</button>
+          </div>
+        </div>
+
+        <div class="conference-years" id="conferenceAccordion">
+          <article class="conference-year open" data-year="2024">
+            <button type="button" class="conf-accordion-toggle" aria-expanded="true">
+              <span class="conference-year-label">2024</span>
+              <span class="conf-count-pill">1 Contribution</span>
+              <span class="accordion-arrow">▾</span>
+            </button>
+            <div class="conference-items">
+              <div class="conference-item">
+                <div class="conf-item-header">
+                  <span class="conference-type">CONFERENCE CONTRIBUTION</span>
+                  <span class="conf-badge">Oral Presentation</span>
+                </div>
+                <h4>International Conference on Materials for Energy, Environment and Healthcare</h4>
+                <p><span>◈</span> National Institute of Technology, Calicut</p>
+                <div class="conf-topic-tag">Materials for Clean Energy & Environment</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="conference-year open" data-year="2023">
+            <button type="button" class="conf-accordion-toggle" aria-expanded="true">
+              <span class="conference-year-label">2023</span>
+              <span class="conf-count-pill">2 Contributions</span>
+              <span class="accordion-arrow">▾</span>
+            </button>
+            <div class="conference-items">
+              <div class="conference-item">
+                <div class="conf-item-header">
+                  <span class="conference-type">CONFERENCE CONTRIBUTION</span>
+                  <span class="conf-badge">Invited Contribution</span>
+                </div>
+                <h4>34th Annual General Meeting of MRSI & 5th Indian Materials Conclave</h4>
+                <p><span>◈</span> IIT (BHU), Varanasi</p>
+                <div class="conf-topic-tag">Materials Research Society of India · Complex Oxides</div>
+              </div>
+              <div class="conference-item">
+                <div class="conf-item-header">
+                  <span class="conference-type">CONFERENCE CONTRIBUTION</span>
+                  <span class="conf-badge">Oral Presentation</span>
+                </div>
+                <h4>International Conference on Advanced Materials: Properties and Applications</h4>
+                <p><span>◈</span> Goa University</p>
+                <div class="conf-topic-tag">Perovskite Nanostructures · Electrocatalysis</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="conference-year open" data-year="2022">
+            <button type="button" class="conf-accordion-toggle" aria-expanded="true">
+              <span class="conference-year-label">2022</span>
+              <span class="conf-count-pill">1 Contribution</span>
+              <span class="accordion-arrow">▾</span>
+            </button>
+            <div class="conference-items">
+              <div class="conference-item">
+                <div class="conf-item-header">
+                  <span class="conference-type">CONFERENCE CONTRIBUTION</span>
+                  <span class="conf-badge">Research Presentation</span>
+                </div>
+                <h4>Frontiers in Chemical Sciences</h4>
+                <p><span>◈</span> IIT Guwahati</p>
+                <div class="conf-topic-tag">Chemical Sciences · Catalytic Interfaces</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="conference-year open" data-year="2021">
+            <button type="button" class="conf-accordion-toggle" aria-expanded="true">
+              <span class="conference-year-label">2021</span>
+              <span class="conf-count-pill">2 Contributions</span>
+              <span class="accordion-arrow">▾</span>
+            </button>
+            <div class="conference-items">
+              <div class="conference-item">
+                <div class="conf-item-header">
+                  <span class="conference-type">CONFERENCE CONTRIBUTION</span>
+                  <span class="conf-badge award-badge">★ Best Poster Award</span>
+                </div>
+                <h4>International Conference on Nanotechnology for Better Living</h4>
+                <p><span>◈</span> NIT Srinagar</p>
+                <div class="conf-topic-tag">Waste Upcycling · Nanotechnology</div>
+              </div>
+              <div class="conference-item">
+                <div class="conf-item-header">
+                  <span class="conference-type">CONFERENCE CONTRIBUTION</span>
+                  <span class="conf-badge">Research Presentation</span>
+                </div>
+                <h4>World Nano Congress on Advanced Science and Technology</h4>
+                <p><span>◈</span> VIT, Chennai</p>
+                <div class="conf-topic-tag">Advanced Nanomaterials · Sustainable Energy</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.F. Expertise & Instruments Section -->
+    <section class="expertise-section" id="expertise">
+      <div class="section section-inner">
+        <div class="section-heading reveal">
+          <span class="section-index">EXPERTISE & INSTRUMENTATION</span>
+          <h2>Methods, instruments & <em>craft.</em></h2>
+          <p>Methodological groupings spanning nanomaterial synthesis, surface characterisation, electrochemistry and
+            computational tools.</p>
+        </div>
+
+        <div class="expertise-layout">
+          <!-- 1. Synthesis Methods -->
+          <div class="expertise-group reveal">
+            <div class="expertise-head">
+              <span class="expertise-symbol">⚗</span>
+              <div>
+                <h3>Synthesis Methodologies</h3>
+                <small>Rational design, hydrothermal & waste upcycling routes</small>
+              </div>
+            </div>
+            <div class="skill-pills">
+              <span>Hydrothermal Synthesis</span>
+              <span>Solvothermal Synthesis</span>
+              <span>Sol–Gel Processing</span>
+              <span>Co-precipitation</span>
+              <span>Acid Digestion</span>
+              <span>Waste Upcycling (Ore Slime & Spent Batteries)</span>
+              <span>Nanostructure Stabilisation</span>
+              <span>Controlled Calcination</span>
+            </div>
+          </div>
+
+          <!-- 2. Characterisation & Analysis -->
+          <div class="expertise-group reveal delay-1">
+            <div class="expertise-head">
+              <span class="expertise-symbol">◈</span>
+              <div>
+                <h3>Characterisation & Spectroscopy</h3>
+                <small>Structural, electronic & morphological evaluation</small>
+              </div>
+            </div>
+            <div class="instrument-grid">
+              <div><b>PXRD</b><small>Crystal structure & phase purity</small></div>
+              <div><b>XPS / UPS</b><small>Surface & electronic oxidation states</small></div>
+              <div><b>SEM & FESEM</b><small>Surface morphology & microstructure</small></div>
+              <div><b>TEM & HRTEM</b><small>Lattice fringe spacing & defects</small></div>
+              <div><b>BET Surface Area</b><small>Porosity & specific surface area</small></div>
+              <div><b>TGA / DSC</b><small>Thermal stability & transitions</small></div>
+              <div><b>ICP-MS</b><small>Quantitative trace elemental analysis</small></div>
+              <div><b>FTIR & UV–Vis</b><small>Bonding structure & optical bandgap</small></div>
+              <div><b>DLS Particle Sizing</b><small>Hydrodynamic size & zeta potential</small></div>
+              <div><b>Drop Shape Analyser</b><small>Surface wettability & contact angles</small></div>
+              <div><b>Spin & Sputter Coater</b><small>Thin-film substrate preparation</small></div>
+            </div>
+          </div>
+
+          <!-- 3. Electrochemistry & Catalytic Evaluation with Chemical Reaction Formulas -->
+          <div class="expertise-group reveal">
+            <div class="expertise-head">
+              <span class="expertise-symbol">ϟ</span>
+              <div>
+                <h3>Electrochemistry & Catalytic Testing</h3>
+                <small>Comprehensive workstation & reaction kinetics</small>
+              </div>
+            </div>
+            <div class="electrochem-grid">
+              <div class="electrochem-card">
+                <b>Cyclic Voltammetry (CV)</b>
+                <small>Redox behavior & electrochemical active surface area</small>
+              </div>
+              <div class="electrochem-card">
+                <b>Linear Sweep Voltammetry (LSV)</b>
+                <small>Overpotential benchmarking & catalytic kinetics</small>
+              </div>
+              <div class="electrochem-card">
+                <b>Electrochemical Impedance (EIS)</b>
+                <small>Charge transfer resistance (Rct) & double layer capacitance</small>
+              </div>
+              <div class="electrochem-card">
+                <b>Chronoamperometry / Durability</b>
+                <small>Extended operational stability & catalyst durability</small>
+              </div>
+              <div class="electrochem-card">
+                <b>Tafel Slope Analysis</b>
+                <small>Rate-determining mechanisms & reaction pathways</small>
+              </div>
+              <div class="electrochem-card">
+                <b>Water Splitting & Fuel Cells</b>
+                <small>Full cell benchmarking & multi-electron pathways</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Computational Tools & Analysis -->
+          <div class="expertise-group reveal delay-1">
+            <div class="expertise-head">
+              <span class="expertise-symbol">⌘</span>
+              <div>
+                <h3>Computational Tools & Analysis</h3>
+                <small>Scientific visualization, crystallography & data processing</small>
+              </div>
+            </div>
+            <div class="software-pills">
+              <span class="software-pill">OriginLab</span>
+              <span class="software-pill">ChemDraw</span>
+              <span class="software-pill">CrystalMaker</span>
+              <span class="software-pill">Adobe Illustrator</span>
+              <span class="software-pill">MS Office Suite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.G. Contact Section & Footer -->
+    <section class="contact-section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="contact-inner">
+        <div class="contact-copy reveal">
+          <span class="section-index">CONNECT</span>
+          <h2>Let's create<br>something <em>impactful.</em></h2>
+          <p>Open to meaningful research conversations, academic collaborations, postdoctoral opportunities and
+            inquiries at the intersection of materials science, electrochemistry and sustainable energy.</p>
+
+
+        </div>
+
+        <div class="contact-card-wrap reveal delay-1">
+          <div class="contact-card">
+            <div class="contact-card-top"><span class="brand-mark">✳</span><span>GET IN TOUCH</span></div>
+
+            <!-- 1-Click Copy Email Item -->
+            <div class="contact-item contact-email-item">
+              <small>EMAIL ADDRESS</small>
+              <div class="email-row">
+                <a href="mailto:kskritikasood28@gmail.com" class="email-address">kskritikasood28@gmail.com</a>
+                <button type="button" class="copy-email-btn" id="copyEmailBtn"
+                  aria-label="Copy email address to clipboard" title="Copy email to clipboard">
+                  <span class="copy-btn-icon">📋</span>
+                  <span class="copy-btn-text">Copy</span>
+                </button>
+              </div>
+              <div class="copy-toast" id="copyToast" role="status" aria-live="polite">✓ Copied to clipboard!</div>
+            </div>
+
+            <a href="tel:+918091152563"><small>PHONE</small><b>+91-8091152563</b><span>↗</span></a>
+            <div><small>LOCATION</small><b>Mohali, Punjab, India</b><span>⌖</span></div>
+            <a href="https://scholar.google.com/citations?user=nln5SJQAAAAJ&hl=en" target="_blank"
+              rel="noopener"><small>GOOGLE SCHOLAR</small><b>View research profile & citations</b><span>↗</span></a>
+            <a href="https://orcid.org/0000-0002-8374-6267" target="_blank" rel="noopener"><small>ORCID
+                iD</small><b>Persistent Researcher
+                Record</b><span>↗</span></a>
+            <a href="https://www.linkedin.com/in/dr-kritika-sood-11627515b/" target="_blank"
+              rel="noopener"><small>LINKEDIN</small><b>Connect professionally</b><span>↗</span></a>
+          </div>
+
+          <!-- Inline Collaboration Form -->
+          <form class="contact-form" id="collabForm" aria-label="Send direct message">
+            <div class="form-title">
+              <span>✉</span>
+              <b>Send a direct message</b>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="formName">Your Name</label>
+                <input type="text" id="formName" required placeholder="Dr. / Prof. / Full Name">
+              </div>
+              <div class="form-group">
+                <label for="formEmail">Your Email</label>
+                <input type="email" id="formEmail" required placeholder="name@institution.edu">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="formTopic">Inquiry Purpose</label>
+              <select id="formTopic">
+                <option value="Research Collaboration">Research Collaboration</option>
+                <option value="Academic Opportunity">Academic / Postdoctoral Opportunity</option>
+                <option value="Invited Talk / Seminar">Invited Talk / Seminar</option>
+                <option value="General Scientific Exchange">General Scientific Exchange</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="formMessage">Message</label>
+              <textarea id="formMessage" rows="3" required
+                placeholder="Brief description of your research interest, invitation or inquiry..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent form-submit-btn">Compose Message <span>↗</span></button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <a class="brand" href="#home"><span class="brand-mark">✳</span><span>Dr. Kritika <b>Sood</b></span></a>
+        <span>Materials Science · Renewable Energy · Nanomaterials · INST Mohali & Panjab University</span>
+        <a href="#home">Back to top ↑</a>
+        <small>© <span id="year"></span> Dr. Kritika Sood. All rights reserved.</small>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Scholarly Citation Modal Dialog -->
+  <dialog class="cite-modal" id="citeModal" aria-labelledby="citeModalTitle">
+    <div class="cite-modal-backdrop" id="citeModalBackdrop"></div>
+    <div class="cite-modal-box">
+      <div class="cite-modal-header">
+        <div class="cite-modal-kicker">SCHOLARLY RECORD</div>
+        <h3 id="citeModalTitle" class="cite-modal-title">Cite this publication</h3>
+        <button type="button" class="cite-modal-close" id="citeModalClose" aria-label="Close citation modal">✕</button>
+      </div>
+      <div class="cite-modal-tabs">
+        <button type="button" class="cite-tab-btn active" data-tab="apa">APA Format</button>
+        <button type="button" class="cite-tab-btn" data-tab="bibtex">BibTeX Entry</button>
+      </div>
+      <div class="cite-modal-body">
+        <div class="cite-tab-content active" id="citeContentApa">
+          <pre class="cite-text" id="citeApaText"></pre>
+          <button type="button" class="btn btn-accent cite-copy-btn" id="copyApaBtn">
+            <span>📋</span> Copy APA Citation
+          </button>
+        </div>
+        <div class="cite-tab-content" id="citeContentBibtex">
+          <pre class="cite-text" id="citeBibtexText"></pre>
+          <button type="button" class="btn btn-accent cite-copy-btn" id="copyBibtexBtn">
+            <span>📋</span> Copy BibTeX Entry
+          </button>
+        </div>
+      </div>
+      <div class="cite-copy-toast" id="citeCopyToast" role="status">✓ Copied citation to clipboard!</div>
+    </div>
+  </dialog>
+
+  <script src="js/publications.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/font-controls.js"></script>
+</body>
+
+</html>
