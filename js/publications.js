@@ -1,56 +1,7 @@
 const PUBLICATIONS = [
-  {
-    "id": 1,
-    "year": 2026,
-    "status": "communication",
-    "type": "journal",
-    "is_first_author": true,
-    "label": "In communication",
-    "title": "Nanostructured Nickel Decorated Manganite-based Perovskite Oxide as an Electrocatalyst towards Urea Oxidation",
-    "authors": "Kritika Sood, Nausad Khan, Nitu Rani, K. K. Bhasin, Menaka Jha",
-    "journal": "Manuscript in communication",
-    "slug": "nanostructured-nickel-decorated-manganite-based-perovskite-oxide-as-an-electrocatalyst-t",
-    "scholar_url": "https://scholar.google.com/scholar?q=%22Nanostructured%20Nickel%20Decorated%20Manganite-based%20Perovskite%20Oxide%20as%20an%20Electrocatalyst%20towards%20Urea%20Oxidation%22"
-  },
-  {
-    "id": 2,
-    "year": 2026,
-    "status": "communication",
-    "type": "journal",
-    "is_first_author": true,
-    "label": "In communication",
-    "title": "Efficient electro-oxidation of ethanol using Ba@NiO nanostructures",
-    "authors": "Kritika Sood, Nausad Khan, Sapna Devi, K. K. Bhasin, Menaka Jha",
-    "journal": "Manuscript in communication",
-    "slug": "efficient-electro-oxidation-of-ethanol-using-ba-nio-nanostructures",
-    "scholar_url": "https://scholar.google.com/scholar?q=%22Efficient%20electro-oxidation%20of%20ethanol%20using%20Ba%40NiO%20nanostructures%22"
-  },
-  {
-    "id": 3,
-    "year": 2026,
-    "status": "review",
-    "type": "journal",
-    "is_first_author": false,
-    "label": "Under review",
-    "title": "Understanding an insight of excellent hydrogen production from cobalt molybdenum sulphide flowers assembled from ultrafine sheets",
-    "authors": "Arushi Arora, Kritika Sood, Menaka Jha",
-    "journal": "Manuscript under review",
-    "slug": "understanding-an-insight-of-excellent-hydrogen-production-from-cobalt-molybdenum-sulphid",
-    "scholar_url": "https://scholar.google.com/scholar?q=%22Understanding%20an%20insight%20of%20excellent%20hydrogen%20production%20from%20cobalt%20molybdenum%20sulphide%20flowers%20assembled%20from%20ultrafine%20sheets%22"
-  },
-  {
-    "id": 4,
-    "year": 2026,
-    "status": "review",
-    "type": "journal",
-    "is_first_author": false,
-    "label": "Under review",
-    "title": "Excellent field emission from ultrafine vanadium dioxide nanorods derived from environmentally friendly process",
-    "authors": "Nausad Khan, Anima Mahajan, Kritika Sood, Arushi Arora, Santanu Ghosh, Menaka Jha",
-    "journal": "Manuscript under review",
-    "slug": "excellent-field-emission-from-ultrafine-vanadium-dioxide-nanorods-derived-from-environme",
-    "scholar_url": "https://scholar.google.com/scholar?q=%22Excellent%20field%20emission%20from%20ultrafine%20vanadium%20dioxide%20nanorods%20derived%20from%20environmentally%20friendly%20process%22"
-  },
+
+
+
   {
     "id": 5,
     "year": 2026,
